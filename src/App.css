@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1,h2{
+  text-align: center;
+}
+
+
+.TaskList{
+  text-align: center;
+border: solid 1px;
+border-color: red;
+}
+.TaskBoard{
+  text-align: center;
+}
+.Task{
+  border: solid 1px;
+  border-color: blue;
+  height: 20px;
 }
